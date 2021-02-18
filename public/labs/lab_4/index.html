@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Michael Hough's Lab 4</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>Michael Hough's Lab 4</h1>
+    </div>
+
+    <form action="/api" method="post">
+      <ul class="flex-outer">
+        <li>
+          <label for="fname">First Name</label>
+          <input
+            name="fname"
+            type="text"
+            id="fname"
+            placeholder="Enter your first name here."
+          />
+        </li>
+        <li>
+          <label for="lname">Last Name</label>
+          <input
+            name="lname"
+            type="text"
+            id="lname"
+            placeholder="Enter your last name here."
+          />
+        </li>
+        <li>
+          <label for="email">Email</label>
+          <input
+            name="email"
+            type="email"
+            id="email"
+            placeholder="Enter your email here."
+          />
+        </li>
+        <li>
+          <label for="phone">Phone</label>
+          <input
+            name="tel"
+            type="tel"
+            id="phone"
+            placeholder="Enter your phone here."
+          />
+        </li>
+        <li>
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            rows="5"
+            cols="33"
+            id="message"
+            placeholder="Enter your message here."
+          ></textarea>
+        </li>
+        <li>
+          <p>Age</p>
+          <ul class="flex-inner">
+            <li>
+              <input name="18-to-35" type="checkbox" id="18-to-35" />
+              <label for="18-to-35">18-35</label>
+            </li>
+            <li>
+              <input name="35-to-50" type="checkbox" id="35-to-50" />
+              <label for="35-to-50">35-50</label>
+            </li>
+            <li>
+              <input name="50-to-65" type="checkbox" id="50-65" />
+              <label for="50-65">50-65</label>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <button name="submit" type="submit" id="submit">Submit Form</button>
+          <label for="submit"></label>
+        </li>
+      </ul>
+    </form>
+  </body>
+</html>
