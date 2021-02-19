@@ -59,3 +59,8 @@ body
   padding: 8px;
   font-weight: 300;
 }
+
+label[for="submit"]
+{
+    display:none;
+}
