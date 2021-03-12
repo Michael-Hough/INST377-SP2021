@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lab 5 - Michael Hough</title>
+    <h1 class="title is-3 ml-2">Lab 5 - Michael Hough</h1>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <h1 class="subtitle is-6 ml-2">Find a Restaurant by Zip Code</h1>
+    <div class="columns">
+      <div class="column ml-2">
+        <form id="search-form" class="block">
+          <label for="search" class="label">Search</label>
+          <input id="search" type="text" class="input" name="input" placeholder="Zip Code"/>
+          <button type="submit" class="button">Submit</button>
+        </form>
+        <ul id="suggestions" class=""></ul>
+      </div>
+      <div class="column mr-2">
+        <div id="mapid"></div>
+      </div>
+  </body>
+  <script src="script.js"></script>
+</html>

@@ -1,0 +1,27 @@
+#mapid
+{
+    height: 480px;
+}
+
+.list-item
+{
+    border-radius: 4px;
+    color: black;
+    background: aquamarine;
+    text-transform: capitalize;
+}
+
+.name
+{
+    font-weight: bold;
+}
+
+.category
+{
+    font-style: italic;
+}
+
+.address
+{
+    font-style: italic;
+}
