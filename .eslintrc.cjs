@@ -19,7 +19,7 @@ module.exports = {
     "no-mixed-requires": [0],
     "no-underscore-dangle": [0],
     "no-extra-parens": 0,
-    "brace-style": 1,
+    "brace-style": 0,
     "object-curly-spacing": 0,
     "no-mixed-spaces-and-tabs": 1,
     "no-trailing-spaces": 1,
